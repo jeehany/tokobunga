@@ -1,0 +1,162 @@
+.warna1 {
+  background-color: #eac7c7;
+}
+
+.warna2 {
+  background-color: #fbe2e5;
+}
+
+.warna3 {
+  background-color: #aaaaaa;
+}
+
+.warna4 {
+  background-color: #f6f6f6;
+}
+.body {
+  background-color: #f8e8ee;
+}
+.home {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/background1.jpg");
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: white;
+}
+
+.no.no-decoration:hover {
+  color: #eec373;
+}
+.myElement {
+  font-family: "Comic Sans MS", cursive;
+  color: #838383;
+}
+
+.text-harga {
+  font-size: 20px;
+  color: black;
+}
+.card-body {
+  display: flex;
+  flex-direction: column; /* Menata elemen anak secara vertikal */
+  align-items: center; /* Pusatkan elemen anak secara horizontal */
+  justify-content: space-between; /* Atur ruang di antara elemen anak */
+  height: 100%; /* Untuk memastikan bahwa elemen flex memanfaatkan tinggi maksimum */
+}
+
+.card-body h5 {
+  color: #f2bed1;
+}
+.image-box {
+  height: 200px;
+}
+.image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.content-subscribe {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.content-subscribe a {
+  color: white;
+}
+.home2 {
+  height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/background1.jpg");
+  background-position: 5% 5%;
+}
+
+.produk-terkait-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+:root {
+  --bg-color: #fff;
+  --main-color: #bcc1c7ec;
+  --text-color: #010101;
+  --2nd-color: #434343;
+  --other-color: #666666;
+  --big-font: 3rem;
+  --h2-font: 2.3rem;
+  --p-font: 1.3rem;
+}
+
+section {
+  padding: 50px 15% 0px;
+}
+
+.banner {
+  display: flex;
+  gap: 2.5rem;
+  overflow-x: auto;
+}
+.banner-img {
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+}
+.banner-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 0.5s;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.banner-img .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.banner-img:hover .caption {
+  opacity: 1;
+}
+.text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.text h2 {
+  text-align: center;
+  font-size: var(--h2-font);
+  font-weight: 800;
+  color: #666;
+}
+.text h3 {
+  text-align: left;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #666;
+}
+.text h4 {
+  font-family: "Jenewa", cursive;
+  text-align: center;
+  font-weight: 800;
+  color: #666;
+}
+.text p {
+  font-family: "Garamond", cursive;
+  margin-top: 50px;
+  color: #666; /* Warna teks untuk paragraf */
+  font-size: 1.2rem; /* Ukuran teks untuk paragraf */
+  line-height: 1.6; /* Jarak antarbaris */
+  text-align: justify;
+}

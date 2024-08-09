@@ -1,0 +1,44 @@
+.kotak {
+  border: solid;
+}
+.summary-kategory {
+  background-color: #eac7c7;
+  border-radius: 10px;
+}
+.summary-product {
+  background-color: #d5b4b4;
+  border-radius: 10px;
+}
+.no-decoration {
+  text-decoration: none;
+}
+.warna1 {
+  background-color: #aee2ff;
+}
+.warna2 {
+  background-color: #d5b4b4;
+}
+.warna3 {
+  background-color: #e4d0d0;
+}
+.warna4 {
+  background-color: #cdf0ea;
+}
+.warna5 {
+  background-color: #f9f9f9;
+}
+.body {
+  background-color: #f5ebeb;
+}
+.main {
+  height: 100vh;
+}
+.login-box {
+  width: 500px;
+  height: 300px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+form div {
+  margin-bottom: 10px;
+}
